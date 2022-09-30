@@ -11,10 +11,10 @@ for (let i = 0; i < table.length; i++) {
 }
 
 for (let i = 0; i < cipher.length; i += 2) {
-    if (table_map[cipher[i]][0] == table_map[cipher[i]+1][0]) {
+    if (table_map[cipher[i]][0] == table_map[cipher[i+1]][0]) {
         // column
         
-    } else if (table_map[cipher[i]][1] == table_map[cipher[i]+1][1]) {
+    } else if (table_map[cipher[i]][1] == table_map[cipher[i+1]][1]) {
         // row
         
     } else {
